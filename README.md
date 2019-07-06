@@ -16,7 +16,7 @@ La libreria socccergraph esta pensada para todos aquellos que trabajen con los d
 -   Analizar grafos de pases adelantados
 -   Analizar las recuperaciones y los tiros asociados.
 
-Para poder probar las funciones de la libreria se ha instalado en `..\R\R-3.5.1\library\socccergraph\data` los siguientes ficheros:
+Para poder probar las funciones de la libreria se ha instalado en `..\data` los siguientes ficheros:
 
 -   f24. Es el XML de eventos de un partido
 -   Pass1 y pass2. Los xml de pases de los 2 equipos del fichero f24
