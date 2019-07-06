@@ -3,9 +3,8 @@ Type: Package
 Title: Analysis and visualization from Opta XML data
 Version: 0.1.0
 Author: Jesus Lagos
-Maintainer: JesAos Lagos Twitter:@VDOT_Spain <jelagmil@gmail.com> 
-Description: A partir de los ficheros proporcionados por OPTA en formato XML permite elaborar anA!lisis y visualizaciones
-    de grafos de pases, radar de pases, corners, tiros y mapas de calor de desde donde pasan y adonde pasan
+Maintainer: Jesus Lagos Twitter:@VDOT_Spain <jelagmil@gmail.com> 
+Description: A partir de los ficheros proporcionados por OPTA en formato XML permite elaborar analisis y visualizaciones de grafos de pases, radar de pases, corners, tiros y mapas de calor de desde donde pasan y adonde pasan
 License: What license is it under?
 Encoding: ISO-8859-2
 LazyData: true
