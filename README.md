@@ -30,7 +30,7 @@ Instalación y Ayuda
 Para instalar el paquete desde Github:
 
 ``` r
-devtools::install_github('jelagmil/socccergraph', build_vignettes = TRUE)
+devtools::install_github("foo/bar", build_opts = c("--no-resave-data", "--no-manual"))
 library(socccergraph)
 ```
 
