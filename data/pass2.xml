@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2018 Opta Sportsdata Ltd. All rights reserved. -->
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-a04.nexus.opta.net
+     production time:    20181009T213121,593Z
+     production module:  Opta::Feed::XML::Soccer::F27
+-->
+<SoccerFeed act_minute="92" act_period="2" act_second="0" away_team_id="178" away_team_name="Barcelona" competition_id="23" competition_name="Spanish La Liga" game_date="2018-10-07 19:45:00" game_id="1009392" home_team_id="191" home_team_name="Valencia CF" season_id="2018" season_name="Season 2018/2019" team_id="191" team_name="Valencia CF">
+  <Player cross_lost="0" cross_success="0" jersey_num="5" pass_lost="2" pass_success="20" player_id="158074" player_name="Gabriel" position="Defender" position_id="2" x="28.80" y="62.36">
+    <Player player_id="56864" player_name="Francis Coquelin">2</Player>
+    <Player player_id="69752" player_name="Neto">1</Player>
+    <Player player_id="92055" player_name="Cristiano Piccini">1</Player>
+    <Player player_id="28525" player_name="Ezequiel Garay">3</Player>
+    <Player player_id="88754" player_name="Geoffrey Kondogbia">1</Player>
+    <Player player_id="94245" player_name="Michy Batshuayi">2</Player>
+    <Player player_id="51952" player_name="Daniel Parejo">7</Player>
+    <Player player_id="132105" player_name="José Gayá">3</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="8" pass_lost="2" pass_success="21" player_id="224860" player_name="Carlos Soler" position="Midfielder" position_id="3" x="42.74" y="27.54">
+    <Player player_id="56864" player_name="Francis Coquelin">1</Player>
+    <Player player_id="88489" player_name="Denis Cheryshev">2</Player>
+    <Player player_id="42779" player_name="Kevin Gameiro">3</Player>
+    <Player player_id="80954" player_name="Rodrigo Moreno">1</Player>
+    <Player player_id="92055" player_name="Cristiano Piccini">4</Player>
+    <Player player_id="28525" player_name="Ezequiel Garay">2</Player>
+    <Player player_id="94245" player_name="Michy Batshuayi">1</Player>
+    <Player player_id="181284" player_name="Gonçalo Guedes">1</Player>
+    <Player player_id="51952" player_name="Daniel Parejo">6</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="17" pass_lost="1" pass_success="7" player_id="56864" player_name="Francis Coquelin" position="Substitute" position_id="5" sub_on="79" x="41.77" y="50.87">
+    <Player player_id="158074" player_name="Gabriel">1</Player>
+    <Player player_id="92055" player_name="Cristiano Piccini">1</Player>
+    <Player player_id="80954" player_name="Rodrigo Moreno">1</Player>
+    <Player player_id="132105" player_name="José Gayá">1</Player>
+    <Player player_id="51952" player_name="Daniel Parejo">3</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="13" pass_lost="11" pass_success="14" player_id="69752" player_name="Neto" position="Goalkeeper" position_id="1" x="8.39" y="47.46">
+    <Player player_id="158074" player_name="Gabriel">1</Player>
+    <Player player_id="224860" player_name="Carlos Soler">1</Player>
+    <Player player_id="88489" player_name="Denis Cheryshev">1</Player>
+    <Player player_id="92055" player_name="Cristiano Piccini">1</Player>
+    <Player player_id="28525" player_name="Ezequiel Garay">3</Player>
+    <Player player_id="88754" player_name="Geoffrey Kondogbia">2</Player>
+    <Player player_id="94245" player_name="Michy Batshuayi">4</Player>
+    <Player player_id="132105" player_name="José Gayá">1</Player>
+  </Player>
+  <Player cross_lost="9" cross_success="1" jersey_num="11" pass_lost="7" pass_success="16" player_id="88489" player_name="Denis Cheryshev" position="Substitute" position_id="5" sub_on="12" x="55.30" y="74.88">
+    <Player player_id="158074" player_name="Gabriel">2</Player>
+    <Player cross="1" player_id="42779" player_name="Kevin Gameiro">1</Player>
+    <Player player_id="88754" player_name="Geoffrey Kondogbia">1</Player>
+    <Player player_id="94245" player_name="Michy Batshuayi">3</Player>
+    <Player player_id="132105" player_name="José Gayá">6</Player>
+    <Player player_id="51952" player_name="Daniel Parejo">3</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="1" jersey_num="9" pass_lost="4" pass_success="13" player_id="42779" player_name="Kevin Gameiro" position="Forward" position_id="4" sub_off="67" x="63.41" y="51.09">
+    <Player cross="1" player_id="88489" player_name="Denis Cheryshev">2</Player>
+    <Player player_id="92055" player_name="Cristiano Piccini">1</Player>
+    <Player player_id="28525" player_name="Ezequiel Garay">1</Player>
+    <Player player_id="88754" player_name="Geoffrey Kondogbia">3</Player>
+    <Player player_id="94245" player_name="Michy Batshuayi">3</Player>
+    <Player player_id="51952" player_name="Daniel Parejo">1</Player>
+    <Player player_id="132105" player_name="José Gayá">2</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="19" pass_lost="3" pass_success="3" player_id="80954" player_name="Rodrigo Moreno" position="Substitute" position_id="5" sub_on="67" x="50.99" y="61.12">
+    <Player player_id="88489" player_name="Denis Cheryshev">1</Player>
+    <Player player_id="132105" player_name="José Gayá">2</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="21" pass_lost="2" pass_success="14" player_id="92055" player_name="Cristiano Piccini" position="Defender" position_id="2" x="31.19" y="18.57">
+    <Player player_id="224860" player_name="Carlos Soler">2</Player>
+    <Player player_id="69752" player_name="Neto">2</Player>
+    <Player player_id="80954" player_name="Rodrigo Moreno">1</Player>
+    <Player player_id="28525" player_name="Ezequiel Garay">4</Player>
+    <Player player_id="94245" player_name="Michy Batshuayi">1</Player>
+    <Player player_id="51952" player_name="Daniel Parejo">4</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="24" pass_lost="6" pass_success="17" player_id="28525" player_name="Ezequiel Garay" position="Defender" position_id="2" x="31.07" y="29.24">
+    <Player player_id="158074" player_name="Gabriel">2</Player>
+    <Player player_id="224860" player_name="Carlos Soler">1</Player>
+    <Player player_id="56864" player_name="Francis Coquelin">1</Player>
+    <Player player_id="88489" player_name="Denis Cheryshev">1</Player>
+    <Player player_id="42779" player_name="Kevin Gameiro">1</Player>
+    <Player player_id="69752" player_name="Neto">1</Player>
+    <Player player_id="92055" player_name="Cristiano Piccini">2</Player>
+    <Player player_id="88754" player_name="Geoffrey Kondogbia">2</Player>
+    <Player player_id="94245" player_name="Michy Batshuayi">2</Player>
+    <Player player_id="51952" player_name="Daniel Parejo">4</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="6" pass_lost="5" pass_success="26" player_id="88754" player_name="Geoffrey Kondogbia" position="Midfielder" position_id="3" sub_off="79" x="42.15" y="47.92">
+    <Player player_id="69752" player_name="Neto">1</Player>
+    <Player player_id="132105" player_name="José Gayá">6</Player>
+    <Player player_id="51952" player_name="Daniel Parejo">6</Player>
+    <Player player_id="158074" player_name="Gabriel">2</Player>
+    <Player player_id="224860" player_name="Carlos Soler">1</Player>
+    <Player player_id="42779" player_name="Kevin Gameiro">2</Player>
+    <Player player_id="88489" player_name="Denis Cheryshev">4</Player>
+    <Player player_id="92055" player_name="Cristiano Piccini">1</Player>
+    <Player player_id="28525" player_name="Ezequiel Garay">1</Player>
+    <Player player_id="94245" player_name="Michy Batshuayi">2</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="23" pass_lost="6" pass_success="16" player_id="94245" player_name="Michy Batshuayi" position="Forward" position_id="4" x="58.07" y="44.66">
+    <Player player_id="224860" player_name="Carlos Soler">5</Player>
+    <Player player_id="42779" player_name="Kevin Gameiro">1</Player>
+    <Player player_id="88489" player_name="Denis Cheryshev">2</Player>
+    <Player player_id="92055" player_name="Cristiano Piccini">1</Player>
+    <Player player_id="94245" player_name="Michy Batshuayi">1</Player>
+    <Player player_id="132105" player_name="José Gayá">3</Player>
+    <Player player_id="51952" player_name="Daniel Parejo">3</Player>
+  </Player>
+  <Player cross_lost="1" cross_success="0" jersey_num="7" pass_lost="1" pass_success="2" player_id="181284" player_name="Gonçalo Guedes" position="Midfielder" position_id="3" sub_off="12" x="74.35" y="58.05">
+    <Player player_id="42779" player_name="Kevin Gameiro">1</Player>
+    <Player player_id="28525" player_name="Ezequiel Garay">1</Player>
+  </Player>
+  <Player cross_lost="2" cross_success="0" jersey_num="14" pass_lost="12" pass_success="24" player_id="132105" player_name="José Gayá" position="Defender" position_id="2" x="42.88" y="81.31">
+    <Player player_id="158074" player_name="Gabriel">3</Player>
+    <Player player_id="42779" player_name="Kevin Gameiro">1</Player>
+    <Player player_id="88489" player_name="Denis Cheryshev">9</Player>
+    <Player player_id="80954" player_name="Rodrigo Moreno">2</Player>
+    <Player player_id="88754" player_name="Geoffrey Kondogbia">4</Player>
+    <Player player_id="94245" player_name="Michy Batshuayi">2</Player>
+    <Player player_id="51952" player_name="Daniel Parejo">1</Player>
+    <Player player_id="181284" player_name="Gonçalo Guedes">2</Player>
+  </Player>
+  <Player cross_lost="3" cross_success="1" jersey_num="10" pass_lost="7" pass_success="45" player_id="51952" player_name="Daniel Parejo" position="Midfielder" position_id="3" x="43.94" y="46.60">
+    <Player player_id="80954" player_name="Rodrigo Moreno">1</Player>
+    <Player cross="1" player_id="88754" player_name="Geoffrey Kondogbia">12</Player>
+    <Player player_id="181284" player_name="Gonçalo Guedes">1</Player>
+    <Player player_id="132105" player_name="José Gayá">6</Player>
+    <Player player_id="158074" player_name="Gabriel">3</Player>
+    <Player player_id="224860" player_name="Carlos Soler">3</Player>
+    <Player player_id="56864" player_name="Francis Coquelin">3</Player>
+    <Player player_id="88489" player_name="Denis Cheryshev">5</Player>
+    <Player player_id="42779" player_name="Kevin Gameiro">3</Player>
+    <Player player_id="92055" player_name="Cristiano Piccini">3</Player>
+    <Player player_id="28525" player_name="Ezequiel Garay">3</Player>
+    <Player player_id="94245" player_name="Michy Batshuayi">2</Player>
+  </Player>
+</SoccerFeed>

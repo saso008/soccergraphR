@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2018 Opta Sportsdata Ltd. All rights reserved. -->
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-a04.nexus.opta.net
+     production time:    20181009T213121,943Z
+     production module:  Opta::Feed::XML::Soccer::F27
+-->
+<SoccerFeed act_minute="92" act_period="2" act_second="0" away_team_id="178" away_team_name="Barcelona" competition_id="23" competition_name="Spanish La Liga" game_date="2018-10-07 19:45:00" game_id="1009392" home_team_id="191" home_team_name="Valencia CF" season_id="2018" season_name="Season 2018/2019" team_id="178" team_name="Barcelona">
+  <Player cross_lost="0" cross_success="0" jersey_num="7" pass_lost="11" pass_success="69" player_id="84583" player_name="Coutinho" position="Forward" position_id="4" sub_off="84" x="68.25" y="76.72">
+    <Player player_id="18221" player_name="Gerard Piqué">2</Player>
+    <Player player_id="54104" player_name="Sergio Busquets">4</Player>
+    <Player player_id="39336" player_name="Luis Suárez">10</Player>
+    <Player player_id="34703" player_name="Ivan Rakitic">3</Player>
+    <Player player_id="204043" player_name="Arthur">25</Player>
+    <Player player_id="52356" player_name="Jordi Alba">13</Player>
+    <Player player_id="19054" player_name="Lionel Messi">11</Player>
+    <Player player_id="15943" player_name="Thomas Vermaelen">1</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="3" pass_lost="5" pass_success="88" player_id="18221" player_name="Gerard Piqué" position="Defender" position_id="2" x="35.80" y="34.39">
+    <Player player_id="18221" player_name="Gerard Piqué">1</Player>
+    <Player player_id="200402" player_name="Nélson Semedo">20</Player>
+    <Player player_id="77318" player_name="Marc-André ter Stegen">5</Player>
+    <Player player_id="54104" player_name="Sergio Busquets">13</Player>
+    <Player player_id="39336" player_name="Luis Suárez">2</Player>
+    <Player player_id="34703" player_name="Ivan Rakitic">17</Player>
+    <Player player_id="204043" player_name="Arthur">16</Player>
+    <Player player_id="52356" player_name="Jordi Alba">3</Player>
+    <Player player_id="19054" player_name="Lionel Messi">1</Player>
+    <Player player_id="15943" player_name="Thomas Vermaelen">10</Player>
+  </Player>
+  <Player cross_lost="2" cross_success="0" jersey_num="2" pass_lost="3" pass_success="60" player_id="200402" player_name="Nélson Semedo" position="Defender" position_id="2" x="53.98" y="12.11">
+    <Player player_id="18221" player_name="Gerard Piqué">11</Player>
+    <Player player_id="54104" player_name="Sergio Busquets">7</Player>
+    <Player player_id="39336" player_name="Luis Suárez">2</Player>
+    <Player player_id="34703" player_name="Ivan Rakitic">33</Player>
+    <Player player_id="204043" player_name="Arthur">2</Player>
+    <Player player_id="92819" player_name="Rafinha">2</Player>
+    <Player player_id="19054" player_name="Lionel Messi">3</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="1" pass_lost="0" pass_success="24" player_id="77318" player_name="Marc-André ter Stegen" position="Goalkeeper" position_id="1" x="8.91" y="47.44">
+    <Player player_id="84583" player_name="Coutinho">1</Player>
+    <Player player_id="18221" player_name="Gerard Piqué">9</Player>
+    <Player player_id="54104" player_name="Sergio Busquets">2</Player>
+    <Player player_id="34703" player_name="Ivan Rakitic">3</Player>
+    <Player player_id="204043" player_name="Arthur">2</Player>
+    <Player player_id="15943" player_name="Thomas Vermaelen">7</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="5" pass_lost="16" pass_success="120" player_id="54104" player_name="Sergio Busquets" position="Midfielder" position_id="3" x="52.14" y="56.12">
+    <Player player_id="18221" player_name="Gerard Piqué">17</Player>
+    <Player player_id="84583" player_name="Coutinho">6</Player>
+    <Player player_id="200402" player_name="Nélson Semedo">5</Player>
+    <Player player_id="39336" player_name="Luis Suárez">1</Player>
+    <Player player_id="34703" player_name="Ivan Rakitic">15</Player>
+    <Player player_id="204043" player_name="Arthur">24</Player>
+    <Player player_id="92819" player_name="Rafinha">3</Player>
+    <Player player_id="52356" player_name="Jordi Alba">10</Player>
+    <Player player_id="15943" player_name="Thomas Vermaelen">18</Player>
+    <Player player_id="19054" player_name="Lionel Messi">21</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="9" pass_lost="10" pass_success="26" player_id="39336" player_name="Luis Suárez" position="Forward" position_id="4" x="70.38" y="56.15">
+    <Player player_id="84583" player_name="Coutinho">6</Player>
+    <Player player_id="18221" player_name="Gerard Piqué">1</Player>
+    <Player player_id="200402" player_name="Nélson Semedo">1</Player>
+    <Player player_id="54104" player_name="Sergio Busquets">1</Player>
+    <Player player_id="34703" player_name="Ivan Rakitic">6</Player>
+    <Player player_id="204043" player_name="Arthur">2</Player>
+    <Player player_id="52356" player_name="Jordi Alba">4</Player>
+    <Player player_id="15943" player_name="Thomas Vermaelen">1</Player>
+    <Player player_id="19054" player_name="Lionel Messi">4</Player>
+  </Player>
+  <Player cross_lost="1" cross_success="0" jersey_num="4" pass_lost="6" pass_success="116" player_id="34703" player_name="Ivan Rakitic" position="Midfielder" position_id="3" x="54.17" y="34.76">
+    <Player player_id="84583" player_name="Coutinho">1</Player>
+    <Player player_id="18221" player_name="Gerard Piqué">7</Player>
+    <Player player_id="77318" player_name="Marc-André ter Stegen">1</Player>
+    <Player player_id="54104" player_name="Sergio Busquets">28</Player>
+    <Player player_id="39336" player_name="Luis Suárez">4</Player>
+    <Player player_id="204043" player_name="Arthur">11</Player>
+    <Player player_id="19054" player_name="Lionel Messi">19</Player>
+    <Player player_id="15943" player_name="Thomas Vermaelen">5</Player>
+    <Player player_id="200402" player_name="Nélson Semedo">26</Player>
+    <Player player_id="219438" player_name="Ousmane Dembélé">3</Player>
+    <Player player_id="52356" player_name="Jordi Alba">11</Player>
+  </Player>
+  <Player cross_lost="1" cross_success="0" jersey_num="8" pass_lost="7" pass_success="135" player_id="204043" player_name="Arthur" position="Midfielder" position_id="3" sub_off="88" x="59.73" y="68.92">
+    <Player player_id="84583" player_name="Coutinho">21</Player>
+    <Player player_id="18221" player_name="Gerard Piqué">7</Player>
+    <Player player_id="77318" player_name="Marc-André ter Stegen">1</Player>
+    <Player player_id="54104" player_name="Sergio Busquets">27</Player>
+    <Player player_id="39336" player_name="Luis Suárez">7</Player>
+    <Player player_id="19054" player_name="Lionel Messi">20</Player>
+    <Player player_id="15943" player_name="Thomas Vermaelen">6</Player>
+    <Player player_id="200402" player_name="Nélson Semedo">2</Player>
+    <Player player_id="34703" player_name="Ivan Rakitic">10</Player>
+    <Player player_id="52356" player_name="Jordi Alba">34</Player>
+  </Player>
+  <Player cross_lost="1" cross_success="0" jersey_num="11" pass_lost="1" pass_success="9" player_id="219438" player_name="Ousmane Dembélé" position="Substitute" position_id="5" sub_on="84" x="75.12" y="81.16">
+    <Player player_id="54104" player_name="Sergio Busquets">3</Player>
+    <Player player_id="34703" player_name="Ivan Rakitic">1</Player>
+    <Player player_id="204043" player_name="Arthur">1</Player>
+    <Player player_id="92819" player_name="Rafinha">1</Player>
+    <Player player_id="52356" player_name="Jordi Alba">2</Player>
+    <Player player_id="19054" player_name="Lionel Messi">1</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="12" pass_lost="0" pass_success="7" player_id="92819" player_name="Rafinha" position="Substitute" position_id="5" sub_on="88" x="65.55" y="45.83">
+    <Player player_id="54104" player_name="Sergio Busquets">1</Player>
+    <Player player_id="34703" player_name="Ivan Rakitic">3</Player>
+    <Player player_id="52356" player_name="Jordi Alba">1</Player>
+    <Player player_id="15943" player_name="Thomas Vermaelen">1</Player>
+    <Player player_id="19054" player_name="Lionel Messi">1</Player>
+  </Player>
+  <Player cross_lost="4" cross_success="0" jersey_num="18" pass_lost="11" pass_success="110" player_id="52356" player_name="Jordi Alba" position="Defender" position_id="2" x="65.05" y="89.68">
+    <Player player_id="18221" player_name="Gerard Piqué">3</Player>
+    <Player player_id="84583" player_name="Coutinho">23</Player>
+    <Player player_id="54104" player_name="Sergio Busquets">9</Player>
+    <Player player_id="39336" player_name="Luis Suárez">8</Player>
+    <Player player_id="34703" player_name="Ivan Rakitic">6</Player>
+    <Player player_id="204043" player_name="Arthur">32</Player>
+    <Player player_id="219438" player_name="Ousmane Dembélé">6</Player>
+    <Player player_id="19054" player_name="Lionel Messi">10</Player>
+    <Player player_id="15943" player_name="Thomas Vermaelen">13</Player>
+  </Player>
+  <Player cross_lost="0" cross_success="0" jersey_num="24" pass_lost="5" pass_success="74" player_id="15943" player_name="Thomas Vermaelen" position="Defender" position_id="2" x="41.61" y="76.73">
+    <Player player_id="84583" player_name="Coutinho">5</Player>
+    <Player player_id="18221" player_name="Gerard Piqué">14</Player>
+    <Player player_id="200402" player_name="Nélson Semedo">2</Player>
+    <Player player_id="77318" player_name="Marc-André ter Stegen">3</Player>
+    <Player player_id="54104" player_name="Sergio Busquets">8</Player>
+    <Player player_id="39336" player_name="Luis Suárez">1</Player>
+    <Player player_id="34703" player_name="Ivan Rakitic">4</Player>
+    <Player player_id="204043" player_name="Arthur">4</Player>
+    <Player player_id="219438" player_name="Ousmane Dembélé">1</Player>
+    <Player player_id="52356" player_name="Jordi Alba">32</Player>
+  </Player>
+  <Player cross_lost="2" cross_success="0" jersey_num="10" pass_lost="14" pass_success="71" player_id="19054" player_name="Lionel Messi" position="Forward" position_id="4" x="68.37" y="55.19">
+    <Player player_id="84583" player_name="Coutinho">14</Player>
+    <Player player_id="18221" player_name="Gerard Piqué">2</Player>
+    <Player player_id="200402" player_name="Nélson Semedo">3</Player>
+    <Player player_id="54104" player_name="Sergio Busquets">15</Player>
+    <Player player_id="39336" player_name="Luis Suárez">5</Player>
+    <Player player_id="34703" player_name="Ivan Rakitic">7</Player>
+    <Player player_id="204043" player_name="Arthur">14</Player>
+    <Player player_id="219438" player_name="Ousmane Dembélé">1</Player>
+    <Player player_id="52356" player_name="Jordi Alba">8</Player>
+    <Player player_id="15943" player_name="Thomas Vermaelen">2</Player>
+  </Player>
+</SoccerFeed>

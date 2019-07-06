@@ -1,0 +1,107 @@
+---
+title: "SoccerGraph"
+author: "Jesús Lagos @Vdot_spain"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+La libreria socccergraph está pensada para todos aquellos que trabajen con los datos de OPTA y para que las personas que estén estudiando o quieran conocer los datos puedan analizarlos y hacer visualizaciones y análisis de los mismos. Con esta libreria podrás:
+
+- Parsear los xml de Opta (Hay 6 ficheros de ejemplo pero solo están desarrollados los parseadores para pass_matrix y f24)
+- Analizar los grafos de pases y gráficas de radar
+- Análizar las zonas de tiro
+- Mapas de calor de pases
+- Amálisis de corners
+
+## OPTAXMLEVENTOS
+
+Con esta función `df<-OptaXMLeventos(ruta_fichero)` podrás pasar el xml f24 a un dataframe teniendo cada evento por linea y sus cualificadores por columna
+
+```{r pressure, echo=FALSE, fig.cap="A la izq XML de Opta, a la derecha convertido a dataframe", out.width = '100%'}
+knitr::include_graphics("3.png")
+```
+
+## OPTAXMLPASSMATRIX
+
+Con esta función `df<-OptaXMLpassmatrix(ruta_fichero)`podrás pasar el xml Pass_matrix a un dataframe teniendo cada jugador repetido por cada conexión con otro jugador
+
+```{r OPTAXMLPASSMATRIX, echo=FALSE, fig.cap="A la izq XML de Opta, a la derecha convertido a dataframe", out.width = '100%'}
+knitr::include_graphics("1.png")
+```
+
+## OPTAMAPMATRIXMAP
+
+Con esta función `OptaMAPmatrixpass(df,4)` se lee el data frame parseado y se genera un grafo que conecta cada jugador con los otros jugadores según los pases realizados en el partido. El segundo parámetro indica el número de pases mínimo a tener en cuenta (si no queremos representar si un jugador pasa 1 vez a otro por ejemplo)
+
+Además cada jugador será representado en la coordenada del XML, con un tamaño de punto según el número de pases exitosos y en color más claro si tiene más centralidad en el grafo. 
+
+Las lineas se representan en de Rojo a Azul en función del número de pases. Cuanto más rojo más pases se han dado entre esos jugadores.
+
+```{r OPTAMAPMATRIXMAP1, echo=FALSE, fig.cap="", out.width = '100%'}
+knitr::include_graphics("2_1.png")
+```
+
+También puedes usar la función `grid.arrange(p1, p2,p4,p5,p6,p7,p8, nrow = 2)` si por ejemplo tienes 8 ficheros (no los hay en el paquete) y representar varios partidos a la vez:
+
+```{r OPTAMAPMATRIXMAP2, echo=FALSE, fig.cap="", out.width = '100%'}
+knitr::include_graphics("2.png")
+```
+
+## OPTAMAPCORNER
+
+Con esta función `OptaMAPcorner(df,1)` podrás visualizar en un mapa de calor las zonas donde saca los corners un equipo y el tipo de remate y con que parte del cuerpo fue realizado.
+
+```{r OPTAMAPCORNER, echo=FALSE, fig.cap="", out.width = '100%'}
+knitr::include_graphics("8.png")
+```
+
+## OPTAMAPDIRECTPASS
+
+Con esta función `OptaMAPdirectpass(df,1)` podrás visualizar en un mapa a cada jugador con su gráfico de radar ubicado en la coordenada promedio de sus pases.
+
+```{r OPTAMAPDIRECTPASS, echo=FALSE, fig.cap="", out.width = '100%'}
+knitr::include_graphics("4_1.png")
+```
+
+También puedes usar la función `grid.arrange(p1, p2,p4,p5,p6,p7,p8, nrow = 2)` si por ejemplo tienes 8 ficheros (no los hay en el paquete) y representar varios partidos a la vez:
+
+```{r OPTAMAPDIRECTPASS2, echo=FALSE, fig.cap="", out.width = '100%'}
+knitr::include_graphics("4.png")
+```
+
+## OPTAMAPHEATMAPFROM AND OPTAMAPHEATMAPFROM
+
+Con estas funciones `OptaMAPheatMapFrom(df,1)` y `OptaMAPheatMapTo(df,1)` podrás visualizar un mapa por jugador con su mapa de calor desde donde pasan y adonde pasan
+
+```{r OPTAMAPHEATMAPFROM, echo=FALSE, fig.cap="Zonas desde donde pasan los jugadores", out.width = '100%'}
+knitr::include_graphics("6.png")
+```
+```{r OPTAMAPHEATMAPFROM2, echo=FALSE, fig.cap="Zonas adonde pasan los jugadores", out.width = '100%'}
+knitr::include_graphics("7.png")
+```
+
+
+## OPTAMAPSHOOT
+
+Con esta función `OptaMAPshoot(df,1))` podrás visualizar una porteria y adonde se ha dirigido cada tiro, cual fue gol y según el tamaño la distancia de donde fue realizado.
+
+```{r OPTAMAPSHOOT, echo=FALSE, fig.cap="", out.width = '100%'}
+knitr::include_graphics("5.png")
+```
+
+## FUTURAS MEJORAS
+
+- INCLUIR UN MAPA CON EL MODELO XG (GOLES ESPERADOS)
+- ANALIZAR EL RESTO DE FICHEROS
+

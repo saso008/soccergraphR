@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright 2001-2018 Opta Sportsdata Ltd. All rights reserved. -->
+<!-- PRODUCTION HEADER
+     produced on:        valde-jobq-a02.nexus.opta.net
+     production time:    20181009T213124,80Z
+     production module:  Opta::Feed::XML::Soccer::F28
+-->
+<Possession away_team_id="178" away_team_name="Barcelona" competition_id="23" competition_name="Spanish La Liga" date="20181007T194500+0100" game_id="1009392" home_team_id="191" home_team_name="Valencia CF" match_time="5520" period="2" season_id="2018" season_name="Season 2018/2019" timestamp="20181009T223121+0100">
+  <PossessionWave Type="BallPossession">
+    <Intervals>
+      <IntervalLength Type="5">
+        <Interval Type="0-5">
+          <Away>72.1</Away>
+          <Home>27.9</Home>
+        </Interval>
+        <Interval Type="6-10">
+          <Away>69.8</Away>
+          <Home>30.2</Home>
+        </Interval>
+        <Interval Type="11-15">
+          <Away>71.1</Away>
+          <Home>28.9</Home>
+        </Interval>
+        <Interval Type="16-20">
+          <Away>73.1</Away>
+          <Home>26.9</Home>
+        </Interval>
+        <Interval Type="21-25">
+          <Away>82.5</Away>
+          <Home>17.5</Home>
+        </Interval>
+        <Interval Type="26-30">
+          <Away>64.1</Away>
+          <Home>35.9</Home>
+        </Interval>
+        <Interval Type="31-35">
+          <Away>79.7</Away>
+          <Home>20.3</Home>
+        </Interval>
+        <Interval Type="36-40">
+          <Away>91.6</Away>
+          <Home>8.4</Home>
+        </Interval>
+        <Interval Type="41-45">
+          <Away>77.9</Away>
+          <Home>22.1</Home>
+        </Interval>
+        <Interval Type="46-50">
+          <Away>59.2</Away>
+          <Home>40.8</Home>
+        </Interval>
+        <Interval Type="51-55">
+          <Away>77.0</Away>
+          <Home>23.0</Home>
+        </Interval>
+        <Interval Type="56-60">
+          <Away>67.3</Away>
+          <Home>32.7</Home>
+        </Interval>
+        <Interval Type="61-65">
+          <Away>76.3</Away>
+          <Home>23.7</Home>
+        </Interval>
+        <Interval Type="66-70">
+          <Away>75.3</Away>
+          <Home>24.7</Home>
+        </Interval>
+        <Interval Type="71-75">
+          <Away>71.4</Away>
+          <Home>28.6</Home>
+        </Interval>
+        <Interval Type="76-80">
+          <Away>100.0</Away>
+          <Home>0.0</Home>
+        </Interval>
+        <Interval Type="81-85">
+          <Away>65.6</Away>
+          <Home>34.4</Home>
+        </Interval>
+        <Interval Type="86-90">
+          <Away>78.0</Away>
+          <Home>22.0</Home>
+        </Interval>
+      </IntervalLength>
+      <IntervalLength Type="15">
+        <Interval Type="0-15">
+          <Away>71.1</Away>
+          <Home>28.9</Home>
+        </Interval>
+        <Interval Type="16-30">
+          <Away>72.1</Away>
+          <Home>27.9</Home>
+        </Interval>
+        <Interval Type="31-45">
+          <Away>83.4</Away>
+          <Home>16.6</Home>
+        </Interval>
+        <Interval Type="46-60">
+          <Away>68.8</Away>
+          <Home>31.2</Home>
+        </Interval>
+        <Interval Type="61-75">
+          <Away>74.6</Away>
+          <Home>25.4</Home>
+        </Interval>
+        <Interval Type="76-90">
+          <Away>82.0</Away>
+          <Home>18.0</Home>
+        </Interval>
+      </IntervalLength>
+      <IntervalLength Type="45">
+        <Interval Type="0-45">
+          <Away>75.9</Away>
+          <Home>24.1</Home>
+        </Interval>
+        <Interval Type="46-90">
+          <Away>75.4</Away>
+          <Home>24.6</Home>
+        </Interval>
+      </IntervalLength>
+    </Intervals>
+    <LastX>
+      <Last Type="5">
+        <Away>91.5</Away>
+        <Home>8.5</Home>
+      </Last>
+      <Last Type="10">
+        <Away>77.6</Away>
+        <Home>22.4</Home>
+      </Last>
+      <Last Type="15">
+        <Away>78.5</Away>
+        <Home>21.5</Home>
+      </Last>
+      <Last Type="20">
+        <Away>80.5</Away>
+        <Home>19.5</Home>
+      </Last>
+      <Last Type="25">
+        <Away>80.2</Away>
+        <Home>19.8</Home>
+      </Last>
+      <Last Type="30">
+        <Away>80.7</Away>
+        <Home>19.3</Home>
+      </Last>
+    </LastX>
+    <Overall>
+      <Away>75.6</Away>
+      <Home>24.4</Home>
+    </Overall>
+  </PossessionWave>
+  <PossessionWave Type="Territorial">
+    <Intervals>
+      <IntervalLength Type="5">
+        <Interval Type="0-5">
+          <Away>67.6</Away>
+          <Home>32.4</Home>
+        </Interval>
+        <Interval Type="6-10">
+          <Away>67.4</Away>
+          <Home>32.6</Home>
+        </Interval>
+        <Interval Type="11-15">
+          <Away>75.0</Away>
+          <Home>25.0</Home>
+        </Interval>
+        <Interval Type="16-20">
+          <Away>50.7</Away>
+          <Home>49.3</Home>
+        </Interval>
+        <Interval Type="21-25">
+          <Away>63.5</Away>
+          <Home>36.5</Home>
+        </Interval>
+        <Interval Type="26-30">
+          <Away>71.7</Away>
+          <Home>28.3</Home>
+        </Interval>
+        <Interval Type="31-35">
+          <Away>63.8</Away>
+          <Home>36.2</Home>
+        </Interval>
+        <Interval Type="36-40">
+          <Away>77.1</Away>
+          <Home>22.9</Home>
+        </Interval>
+        <Interval Type="41-45">
+          <Away>71.4</Away>
+          <Home>28.6</Home>
+        </Interval>
+        <Interval Type="46-50">
+          <Away>50.0</Away>
+          <Home>50.0</Home>
+        </Interval>
+        <Interval Type="51-55">
+          <Away>62.0</Away>
+          <Home>38.0</Home>
+        </Interval>
+        <Interval Type="56-60">
+          <Away>45.5</Away>
+          <Home>54.5</Home>
+        </Interval>
+        <Interval Type="61-65">
+          <Away>43.4</Away>
+          <Home>56.6</Home>
+        </Interval>
+        <Interval Type="66-70">
+          <Away>48.1</Away>
+          <Home>51.9</Home>
+        </Interval>
+        <Interval Type="71-75">
+          <Away>62.5</Away>
+          <Home>37.5</Home>
+        </Interval>
+        <Interval Type="76-80">
+          <Away>92.8</Away>
+          <Home>7.2</Home>
+        </Interval>
+        <Interval Type="81-85">
+          <Away>45.3</Away>
+          <Home>54.7</Home>
+        </Interval>
+        <Interval Type="86-90">
+          <Away>68.8</Away>
+          <Home>31.2</Home>
+        </Interval>
+      </IntervalLength>
+      <IntervalLength Type="15">
+        <Interval Type="0-15">
+          <Away>70.6</Away>
+          <Home>29.4</Home>
+        </Interval>
+        <Interval Type="16-30">
+          <Away>63.1</Away>
+          <Home>36.9</Home>
+        </Interval>
+        <Interval Type="31-45">
+          <Away>71.2</Away>
+          <Home>28.8</Home>
+        </Interval>
+        <Interval Type="46-60">
+          <Away>54.1</Away>
+          <Home>45.9</Home>
+        </Interval>
+        <Interval Type="61-75">
+          <Away>50.2</Away>
+          <Home>49.8</Home>
+        </Interval>
+        <Interval Type="76-90">
+          <Away>70.7</Away>
+          <Home>29.3</Home>
+        </Interval>
+      </IntervalLength>
+      <IntervalLength Type="45">
+        <Interval Type="0-45">
+          <Away>68.2</Away>
+          <Home>31.8</Home>
+        </Interval>
+        <Interval Type="46-90">
+          <Away>59.1</Away>
+          <Home>40.9</Home>
+        </Interval>
+      </IntervalLength>
+    </Intervals>
+    <LastX>
+      <Last Type="5">
+        <Away>62.0</Away>
+        <Home>38.0</Home>
+      </Last>
+      <Last Type="10">
+        <Away>66.4</Away>
+        <Home>33.6</Home>
+      </Last>
+      <Last Type="15">
+        <Away>67.3</Away>
+        <Home>32.7</Home>
+      </Last>
+      <Last Type="20">
+        <Away>69.4</Away>
+        <Home>30.6</Home>
+      </Last>
+      <Last Type="25">
+        <Away>68.6</Away>
+        <Home>31.4</Home>
+      </Last>
+      <Last Type="30">
+        <Away>64.2</Away>
+        <Home>35.8</Home>
+      </Last>
+    </LastX>
+    <Overall>
+      <Away>63.4</Away>
+      <Home>36.6</Home>
+    </Overall>
+  </PossessionWave>
+  <PossessionWave Type="TerritorialThird">
+    <Intervals>
+      <IntervalLength Type="5">
+        <Interval Type="0-5">
+          <Away>13.2</Away>
+          <Home>41.2</Home>
+          <Middle>45.6</Middle>
+        </Interval>
+        <Interval Type="6-10">
+          <Away>25.6</Away>
+          <Home>44.2</Home>
+          <Middle>30.2</Middle>
+        </Interval>
+        <Interval Type="11-15">
+          <Away>7.9</Away>
+          <Home>35.5</Home>
+          <Middle>56.6</Middle>
+        </Interval>
+        <Interval Type="16-20">
+          <Away>20.9</Away>
+          <Home>32.8</Home>
+          <Middle>46.3</Middle>
+        </Interval>
+        <Interval Type="21-25">
+          <Away>11.1</Away>
+          <Home>36.5</Home>
+          <Middle>52.4</Middle>
+        </Interval>
+        <Interval Type="26-30">
+          <Away>8.7</Away>
+          <Home>45.7</Home>
+          <Middle>45.6</Middle>
+        </Interval>
+        <Interval Type="31-35">
+          <Away>21.7</Away>
+          <Home>31.9</Home>
+          <Middle>46.4</Middle>
+        </Interval>
+        <Interval Type="36-40">
+          <Away>7.2</Away>
+          <Home>49.4</Home>
+          <Middle>43.4</Middle>
+        </Interval>
+        <Interval Type="41-45">
+          <Away>19.5</Away>
+          <Home>49.4</Home>
+          <Middle>31.1</Middle>
+        </Interval>
+        <Interval Type="46-50">
+          <Away>17.1</Away>
+          <Home>21.1</Home>
+          <Middle>61.8</Middle>
+        </Interval>
+        <Interval Type="51-55">
+          <Away>16.0</Away>
+          <Home>30.0</Home>
+          <Middle>54.0</Middle>
+        </Interval>
+        <Interval Type="56-60">
+          <Away>34.5</Away>
+          <Home>34.5</Home>
+          <Middle>31.0</Middle>
+        </Interval>
+        <Interval Type="61-65">
+          <Away>34.2</Away>
+          <Home>17.1</Home>
+          <Middle>48.7</Middle>
+        </Interval>
+        <Interval Type="66-70">
+          <Away>36.4</Away>
+          <Home>23.4</Home>
+          <Middle>40.2</Middle>
+        </Interval>
+        <Interval Type="71-75">
+          <Away>14.3</Away>
+          <Home>44.6</Home>
+          <Middle>41.1</Middle>
+        </Interval>
+        <Interval Type="76-80">
+          <Away>0.0</Away>
+          <Home>72.3</Home>
+          <Middle>27.7</Middle>
+        </Interval>
+        <Interval Type="81-85">
+          <Away>31.2</Away>
+          <Home>28.1</Home>
+          <Middle>40.7</Middle>
+        </Interval>
+        <Interval Type="86-90">
+          <Away>16.5</Away>
+          <Home>47.7</Home>
+          <Middle>35.8</Middle>
+        </Interval>
+      </IntervalLength>
+      <IntervalLength Type="15">
+        <Interval Type="0-15">
+          <Away>13.9</Away>
+          <Home>39.6</Home>
+          <Middle>46.5</Middle>
+        </Interval>
+        <Interval Type="16-30">
+          <Away>13.1</Away>
+          <Home>39.2</Home>
+          <Middle>47.7</Middle>
+        </Interval>
+        <Interval Type="31-45">
+          <Away>15.7</Away>
+          <Home>44.1</Home>
+          <Middle>40.2</Middle>
+        </Interval>
+        <Interval Type="46-60">
+          <Away>20.8</Away>
+          <Home>28.1</Home>
+          <Middle>51.1</Middle>
+        </Interval>
+        <Interval Type="61-75">
+          <Away>29.7</Away>
+          <Home>26.8</Home>
+          <Middle>43.5</Middle>
+        </Interval>
+        <Interval Type="76-90">
+          <Away>14.8</Away>
+          <Home>50.8</Home>
+          <Middle>34.4</Middle>
+        </Interval>
+      </IntervalLength>
+      <IntervalLength Type="45">
+        <Interval Type="0-45">
+          <Away>14.3</Away>
+          <Home>41.1</Home>
+          <Middle>44.6</Middle>
+        </Interval>
+        <Interval Type="46-90">
+          <Away>21.3</Away>
+          <Home>36.1</Home>
+          <Middle>42.6</Middle>
+        </Interval>
+      </IntervalLength>
+    </Intervals>
+    <Overall>
+      <Away>17.9</Away>
+      <Home>38.5</Home>
+      <Middle>43.6</Middle>
+    </Overall>
+  </PossessionWave>
+</Possession>
