@@ -65,7 +65,7 @@ Para conocer cada función y como se usa cada una también puedes usar "?" segui
 ?OptaXMLstats
 ```
 
-Se vería así: <img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/21.png" width="100%" />
+Se vería así: <img src="vignettes/21.png" width="100%" />
 
 OptaXMLeventos
 --------------
@@ -80,7 +80,7 @@ df<-OptaXMLeventos(ruta_eventos)
 
 Y así quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/3.png" alt="A la izq XML de Opta, a la derecha convertido a dataframe" width="100%" />
+<img src="vignettes/3.png" alt="A la izq XML de Opta, a la derecha convertido a dataframe" width="100%" />
 <p class="caption">
 A la izq XML de Opta, a la derecha convertido a dataframe
 </p>
@@ -100,7 +100,7 @@ df2<-OptaXMLpassmatrix(ruta_pases2)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/1.png" alt="A la izq XML de Opta, a la derecha convertido a dataframe" width="100%" />
+<img src="vignettes/1.png" alt="A la izq XML de Opta, a la derecha convertido a dataframe" width="100%" />
 <p class="caption">
 A la izq XML de Opta, a la derecha convertido a dataframe
 </p>
@@ -130,11 +130,11 @@ OptaMAPmatrixpass(df1,4)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/2_1.png" width="100%" />
+<img src="vignettes/2_1.png" width="100%" />
 
 También puedes usar la función `grid.arrange(p1, p2,p4,p5,p6,p7,p8, nrow = 2)` si por ejemplo tienes 8 ficheros (no los hay en el paquete) y representar varios partidos a la vez:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/2.png" width="100%" />
+<img src="vignettes/2.png" width="100%" />
 
 OptaMAPcorner
 -------------
@@ -152,7 +152,7 @@ OptaMAPcorner(df,1)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/8.png" width="100%" />
+<img src="vignettes/8.png" width="100%" />
 
 OptaMAPdirectpass
 -----------------
@@ -168,13 +168,13 @@ OptaMAPdirectpass(df,1)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/4_1.png" width="100%" />
+<img src="vignettes/4_1.png" width="100%" />
 
 También puedes usar la función `grid.arrange(p1, p2,p4,p5,p6,p7,p8, nrow = 2)` si por ejemplo tienes 8 ficheros (no los hay en el paquete) y representar varios partidos a la vez.
 
 El df será el parseado con la función OPTAXMLEVENTOS
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/4.png" width="100%" />
+<img src="vignettes/4.png" width="100%" />
 
 OptaMAPheatMapFrom y OptaMAPheatMapTo
 -------------------------------------
@@ -191,12 +191,12 @@ OptaMAPheatMapTo(df,1)
 
 El df será el parseado con la función OPTAXMLEVENTOS
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/6.png" alt="Zonas desde donde pasan los jugadores" width="100%" />
+<img src="vignettes/6.png" alt="Zonas desde donde pasan los jugadores" width="100%" />
 <p class="caption">
 Zonas desde donde pasan los jugadores
 </p>
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/7.png" alt="Zonas adonde pasan los jugadores" width="100%" />
+<img src="vignettes/7.png" alt="Zonas adonde pasan los jugadores" width="100%" />
 <p class="caption">
 Zonas adonde pasan los jugadores
 </p>
@@ -217,7 +217,7 @@ OptaMAPshoot(df,1)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/5.png" width="100%" />
+<img src="vignettes/5.png" width="100%" />
 
 OPTAXMLPOSESION
 ---------------
@@ -246,7 +246,7 @@ OptaMAPposesion(df)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/9.png" width="100%" />
+<img src="vignettes/9.png" width="100%" />
 
 OptaMAPposesionzonal
 --------------------
@@ -266,7 +266,7 @@ OptaMAPposesionzonal(df,1)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/11.png" width="100%" />
+<img src="vignettes/11.png" width="100%" />
 
 Si pasamos el parámetro 0 obtendremos el número de eventos en rangos de 15 minutos:
 
@@ -279,7 +279,7 @@ OptaMAPposesionzonal(df,0)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/10.png" width="100%" />
+<img src="vignettes/10.png" width="100%" />
 
 OptaXMLstats
 ------------
@@ -294,7 +294,7 @@ df<-OptaXMLstats(ruta_stats)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/12.png" width="100%" />
+<img src="vignettes/12.png" width="100%" />
 
 OptaMAPradarevent
 -----------------
@@ -312,9 +312,9 @@ OptaMAPradarevent(df,0)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/14.png" width="100%" />
+<img src="vignettes/14.png" width="100%" />
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/15.png" width="100%" />
+<img src="vignettes/15.png" width="100%" />
 
 OptaMAPanalisisdefensivo
 ------------------------
@@ -332,7 +332,7 @@ OptaMAPanalisisdefensivo(df)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/16.png" width="100%" />
+<img src="vignettes/16.png" width="100%" />
 
 OptaMAPdfrontpass
 -----------------
@@ -350,7 +350,7 @@ OptaMAPdfrontpass(df,1,3,3)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/17.png" alt="A la izquierda el grafo normal y a la derecha el grafo solo con pases adelantados para el mismo partido con mínimo de 3 pases y 3 metros" width="100%" />
+<img src="vignettes/17.png" alt="A la izquierda el grafo normal y a la derecha el grafo solo con pases adelantados para el mismo partido con mínimo de 3 pases y 3 metros" width="100%" />
 <p class="caption">
 A la izquierda el grafo normal y a la derecha el grafo solo con pases adelantados para el mismo partido con mínimo de 3 pases y 3 metros
 </p>
@@ -371,7 +371,7 @@ OptaMAPcontras(df,1)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/19.png" width="100%" />
+<img src="vignettes/19.png" width="100%" />
 
 OptaMAPmatrixpasscluster
 ------------------------
@@ -389,7 +389,7 @@ OptaMAPmatrixpasscluster(df,1,20)
 
 Y quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/20.png" width="100%" />
+<img src=/vignettes/20.png" width="100%" />
 
 OptaMAPcampofutbol
 ------------------
@@ -403,7 +403,7 @@ OptaMAPcampofutbol()
 
 quedaría:
 
-<img src="C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/22.png" width="100%" />
+<img src="vignettes/22.png" width="100%" />
 
 FUTURAS MEJORAS
 ---------------
