@@ -1,4 +1,4 @@
-#' Esta función parsea el xml de eventos de opta generando un data frame preparado para usarse
+#' Esta funcion parsea el xml de eventos de opta generando un data frame preparado para usarse
 #'
 #' @param evento Un string con la ruta del fichero
 #' @return un df de \code{evento}

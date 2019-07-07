@@ -2,7 +2,7 @@
 % Please edit documentation in R/XMLEventos.R
 \name{OptaXMLeventos}
 \alias{OptaXMLeventos}
-\title{Esta función parsea el xml de eventos de opta generando un data frame preparado para usarse}
+\title{Esta funcion parsea el xml de eventos de opta generando un data frame preparado para usarse}
 \usage{
 OptaXMLeventos(evento, ...)
 }
@@ -13,7 +13,7 @@ OptaXMLeventos(evento, ...)
 un df de \code{evento}
 }
 \description{
-Esta función parsea el xml de eventos de opta generando un data frame preparado para usarse
+Esta funcion parsea el xml de eventos de opta generando un data frame preparado para usarse
 }
 \examples{
 OptaXMLeventos(path)

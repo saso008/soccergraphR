@@ -1,6 +1,6 @@
 ---
-title: "SoccerGraph"
-author: "Jesús Lagos @Vdot_spain"
+title: "soccergraphR"
+author: "Jesús Lagos @Vdot_spain <jelagmil@gmail.com>"
 date: "`r Sys.Date()`"
 output: github_document
 ---
@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
   out.width = "100%"
 )
 ```
-La libreria socccergraph esta pensada para todos aquellos que trabajen con los datos de OPTA y para que las personas que estén estudiando o quieran conocer los datos puedan analizarlos y hacer visualizaciones y análisis de los mismos. Con esta libreria podrás:
+La libreria soccergraphR esta pensada para todos aquellos que trabajen con los datos de OPTA y para que las personas que estén estudiando o quieran conocer los datos puedan analizarlos y hacer visualizaciones y análisis de los mismos. Con esta libreria podrás:
 
 - Parsear los xml de Opta (Hay 6 ficheros de ejemplo: f24, f28,2xpass,stats y srml)
 - Analizar los grafos de pases y gráficas de radar
@@ -27,7 +27,7 @@ La libreria socccergraph esta pensada para todos aquellos que trabajen con los d
 - Analizar grafos de pases adelantados
 - Analizar las recuperaciones y los tiros asociados.
 
-Para poder probar las funciones de la libreria se ha instalado en `..\R\R-3.5.1\library\socccergraph\data` los siguientes ficheros:
+Para poder probar las funciones de la libreria se ha instalado en `..\R\R-3.5.1\library\soccergraphR\data` los siguientes ficheros:
 
 - f24. Es el XML de eventos de un partido
 - Pass1 y pass2. Los xml de pases de los 2 equipos del fichero f24
@@ -38,14 +38,14 @@ Para poder probar las funciones de la libreria se ha instalado en `..\R\R-3.5.1\
 ## Instalación y Ayuda
 Para instalar el paquete desde Github:
 ```{r eval=FALSE}
-devtools::install_github('jelagmil/socccergraph')
-library(socccergraph)
+devtools::install_github('jelagmil/soccergraphR', build_opts = c("--no-resave-data", "--no-manual"))
+library(soccergraphR)
 ```
 
 Una vez instalado puedes leer la explicación de la libreria ejecutando:
 ```{r eval=FALSE}
 #Para que se abra en el navegador:
-browseVignettes("socccergraph")
+browseVignettes("soccergraphR")
 
 #Para que se abra en la pestaña de Help de RStudio:
 vignette("my-vignette")
@@ -75,7 +75,7 @@ la ayuda en la pestaña de Help de RStudio. Si apretas F1 con el cursor puesto e
 
 Se vería así:
 ```{r pressure1, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/21.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/21.png")
 ```
 
 ## OptaXMLeventos
@@ -85,14 +85,14 @@ de las funciones de esta libreria.
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/f24.xml')
+ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/f24.xml')
 df<-OptaXMLeventos(ruta_eventos)
 ```
 
 Y así quedaría:
 
 ```{r pressure, echo=FALSE, fig.cap="A la izq XML de Opta, a la derecha convertido a dataframe", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/3.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/3.png")
 ```
 
 ## OPTAXMLPASSMATRIX
@@ -101,8 +101,8 @@ Con esta función `df<-OptaXMLpassmatrix(ruta_fichero)`podrás pasar el xml Pass
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_pases1<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/pass1.xml')
-ruta_pases2<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/pass2.xml')
+ruta_pases1<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/pass1.xml')
+ruta_pases2<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/pass2.xml')
 df1<-OptaXMLpassmatrix(ruta_pases1)
 df2<-OptaXMLpassmatrix(ruta_pases2)
 ```
@@ -110,7 +110,7 @@ df2<-OptaXMLpassmatrix(ruta_pases2)
 Y quedaría:
 
 ```{r OPTAXMLPASSMATRIX, echo=FALSE, fig.cap="A la izq XML de Opta, a la derecha convertido a dataframe", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/1.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/1.png")
 ```
 
 ## OptaMAPmatrixpass
@@ -129,7 +129,7 @@ En la parte inferior se mostrará el valor de la densidad del grafo.
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_pases1<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/pass1.xml')
+ruta_pases1<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/pass1.xml')
 df1<-OptaXMLpassmatrix(ruta_pases1)
 #Se calcula el grafo para la tabla df1 teniendo en cuenta un número de pases superior a 4
 OptaMAPmatrixpass(df1,4)
@@ -138,13 +138,13 @@ OptaMAPmatrixpass(df1,4)
 Y quedaría:
 
 ```{r OPTAMAPMATRIXMAP1, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/2_1.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/2_1.png")
 ```
 
 También puedes usar la función `grid.arrange(p1, p2,p4,p5,p6,p7,p8, nrow = 2)` si por ejemplo tienes 8 ficheros (no los hay en el paquete) y representar varios partidos a la vez:
 
 ```{r OPTAMAPMATRIXMAP2, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/2.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/2.png")
 ```
 
 ## OptaMAPcorner
@@ -156,7 +156,7 @@ El df será el parseado con la función OPTAXMLEVENTOS:
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/f24.xml')
+ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/f24.xml')
 df<-OptaXMLeventos(ruta_eventos)
 OptaMAPcorner(df,1)
 ```
@@ -165,7 +165,7 @@ Y quedaría:
 
 
 ```{r OPTAMAPCORNER, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/8.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/8.png")
 ```
 
 ## OptaMAPdirectpass
@@ -175,7 +175,7 @@ Con esta función `OptaMAPdirectpass(df,1)` podrás visualizar en un mapa a cada
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/f24.xml')
+ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/f24.xml')
 df<-OptaXMLeventos(ruta_eventos)
 OptaMAPdirectpass(df,1)
 ```
@@ -184,7 +184,7 @@ Y quedaría:
 
 
 ```{r OPTAMAPDIRECTPASS, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/4_1.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/4_1.png")
 ```
 
 También puedes usar la función `grid.arrange(p1, p2,p4,p5,p6,p7,p8, nrow = 2)` si por ejemplo tienes 8 ficheros (no los hay en el paquete) y representar varios partidos a la vez.
@@ -192,7 +192,7 @@ También puedes usar la función `grid.arrange(p1, p2,p4,p5,p6,p7,p8, nrow = 2)`
 El df será el parseado con la función OPTAXMLEVENTOS
 
 ```{r OPTAMAPDIRECTPASS2, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/4.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/4.png")
 ```
 
 
@@ -202,7 +202,7 @@ Con estas funciones `OptaMAPheatMapFrom(df,1)` y `OptaMAPheatMapTo(df,1)` podrá
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/f24.xml')
+ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/f24.xml')
 df<-OptaXMLeventos(ruta_eventos)
 OptaMAPheatMapFrom(df,1)
 OptaMAPheatMapTo(df,1)
@@ -211,10 +211,10 @@ OptaMAPheatMapTo(df,1)
 El df será el parseado con la función OPTAXMLEVENTOS
 
 ```{r OPTAMAPHEATMAPFROM, echo=FALSE, fig.cap="Zonas desde donde pasan los jugadores", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/6.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/6.png")
 ```
 ```{r OPTAMAPHEATMAPFROM2, echo=FALSE, fig.cap="Zonas adonde pasan los jugadores", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/7.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/7.png")
 ```
 
 
@@ -227,7 +227,7 @@ El df será el parseado con la función OPTAXMLEVENTOS:
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/f24.xml')
+ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/f24.xml')
 df<-OptaXMLeventos(ruta_eventos)
 OptaMAPshoot(df,1)
 ```
@@ -235,7 +235,7 @@ OptaMAPshoot(df,1)
 Y quedaría:
 
 ```{r OPTAMAPSHOOT, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/5.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/5.png")
 ```
 
 
@@ -245,7 +245,7 @@ Con esta función `OptaXMLposesion(path)` se parsea el fichero F28 de OPTA por e
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_posesion<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/f28.xml')
+ruta_posesion<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/f28.xml')
 df<-OptaXMLposesion(ruta_posesion)
 ```
 
@@ -259,7 +259,7 @@ El df será el parseado con la función OPTAXMLPOSESION
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_posesion<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/f28.xml')
+ruta_posesion<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/f28.xml')
 df<-OptaXMLposesion(ruta_posesion)
 OptaMAPposesion(df)
 ```
@@ -267,7 +267,7 @@ OptaMAPposesion(df)
 Y quedaría:
 
 ```{r OPTAMAPPOSESION, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/9.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/9.png")
 ```
 
 ## OptaMAPposesionzonal
@@ -280,7 +280,7 @@ El df será el parseado con la función OPTAXMLEVENTOS:
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/f24.xml')
+ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/f24.xml')
 df<-OptaXMLeventos(ruta_eventos)
 OptaMAPposesionzonal(df,1)
 ```
@@ -288,14 +288,14 @@ OptaMAPposesionzonal(df,1)
 Y quedaría:
 
 ```{r OptaMAPposesionzonal1, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/11.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/11.png")
 ```
 
 Si pasamos el parámetro 0 obtendremos el número de eventos en rangos de 15 minutos:
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/f24.xml')
+ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/f24.xml')
 df<-OptaXMLeventos(ruta_eventos)
 OptaMAPposesionzonal(df,0)
 ```
@@ -303,7 +303,7 @@ OptaMAPposesionzonal(df,0)
 Y quedaría:
 
 ```{r OptaMAPposesionzonal2, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/10.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/10.png")
 ```
 
 ## OptaXMLstats
@@ -312,14 +312,14 @@ Con esta función `OptaXMLstats(df)` se parsea el XML de estadísticas de la tem
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_stats<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/stats.xml')
+ruta_stats<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/stats.xml')
 df<-OptaXMLstats(ruta_stats)
 ```
 
 Y quedaría:
 
 ```{r OptaXMLstats, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/12.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/12.png")
 ```
 
 ## OptaMAPradarevent
@@ -331,7 +331,7 @@ El df será el parseado con la función  OptaXMLstats
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_stats<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/stats.xml')
+ruta_stats<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/stats.xml')
 df<-OptaXMLstats(ruta_stats)
 OptaMAPradarevent(df,0)
 ```
@@ -339,11 +339,11 @@ OptaMAPradarevent(df,0)
 Y quedaría:
 
 ```{r OptaMAPradarevent1, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/14.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/14.png")
 ```
 
 ```{r OptaMAPradarevent2, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/15.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/15.png")
 ```
 
 ## OptaMAPanalisisdefensivo
@@ -354,7 +354,7 @@ El df será el parseado con la función OPTAXMLEVENTOS
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/f24.xml')
+ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/f24.xml')
 df<-OptaXMLeventos(ruta_eventos)
 OptaMAPanalisisdefensivo(df)
 ```
@@ -362,7 +362,7 @@ OptaMAPanalisisdefensivo(df)
 Y quedaría:
 
 ```{r OptaMAPanalisisdefensivo, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/16.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/16.png")
 ```
 
 ## OptaMAPdfrontpass
@@ -374,7 +374,7 @@ El df será el parseado con la función OPTAXMLEVENTOS
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/f24.xml')
+ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/f24.xml')
 df<-OptaXMLeventos(ruta_eventos)
 OptaMAPdfrontpass(df,1,3,3)
 ```
@@ -382,7 +382,7 @@ OptaMAPdfrontpass(df,1,3,3)
 Y quedaría:
 
 ```{r OptaMAPdfrontpass, echo=FALSE, fig.cap="A la izquierda el grafo normal y a la derecha el grafo solo con pases adelantados para el mismo partido con mínimo de 3 pases y 3 metros", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/17.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/17.png")
 ```
 
 
@@ -394,7 +394,7 @@ El df será el parseado con la función OPTAXMLEVENTOS
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/f24.xml')
+ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/f24.xml')
 df<-OptaXMLeventos(ruta_eventos)
 OptaMAPcontras(df,1)
 ```
@@ -402,7 +402,7 @@ OptaMAPcontras(df,1)
 Y quedaría:
 
 ```{r OptaMAPcontras, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/19.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/19.png")
 ```
 
 ## OptaMAPmatrixpasscluster
@@ -413,7 +413,7 @@ El df será el parseado con la función OPTAXMLEVENTOS
 
 ```{r eval=FALSE}
 #Pon la ruta donde tengas instsalada la libreria en mi caso:
-ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/socccergraph/data/f24.xml')
+ruta_eventos<-c('C:/My Program Files/R/R-3.5.1/library/soccergraphR/data/f24.xml')
 df<-OptaXMLeventos(ruta_eventos)
 OptaMAPmatrixpasscluster(df,1,20)
 ```
@@ -421,7 +421,7 @@ Y quedaría:
 
 
 ```{r OptaMAPmatrixpasscluster, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/20.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/20.png")
 ```
 
 ## OptaMAPcampofutbol
@@ -435,7 +435,7 @@ OptaMAPcampofutbol()
 quedaría:
 
 ```{r OptaMAPcampofutbol, echo=FALSE, fig.cap="", out.width = '100%'}
-knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/socccergraph/vignettes/22.png")
+knitr::include_graphics("C:/Users/jlagosmi/Desktop/MASTER BIG DATA/PAQUETE_R/soccergraphR/vignettes/22.png")
 ```
 
 
